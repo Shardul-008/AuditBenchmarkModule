@@ -56,7 +56,6 @@ namespace AuditBenchmarkModule
             {
                 app.UseDeveloperExceptionPage();
             }
-            app.UseHttpsRedirection();
 
             app.UseRouting();
             app.UseAuthentication();
